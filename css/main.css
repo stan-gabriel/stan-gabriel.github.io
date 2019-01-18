@@ -2284,3 +2284,10 @@ ul.social-links li:last-child a {
   }
 }
 /*===== /v2.0.0 - 23 November 2018 =====*/
+
+
+/* =========== CUSTOM ============== */
+.clients-align-center {
+  display: flex;
+  align-items: center;
+}

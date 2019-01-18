@@ -2,8 +2,8 @@
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="portfolio-2.html"><i class="pe-7s-icon pe-7s-angle-left"></i></a>
-                <a class="ajax-page-load" href="portfolio-4.html"><i class="pe-7s-icon pe-7s-angle-right"></i></a>
+                <!--<a class="ajax-page-load" href="portfolio-5.html"><i class="pe-7s-icon pe-7s-angle-left"></i></a>-->
+                <a class="ajax-page-load" href="impulse.html"><i class="pe-7s-icon pe-7s-angle-right"></i></a>
             </div>
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="pe-7s-icon pe-7s-close"></i></a>
@@ -11,25 +11,29 @@
         </div>
 
         <div class="ajax-page-title">
-            <h1>Portfolio Project 3</h1>
+            <h1>Noaptea alba a galeriilor</h1>
         </div>
 
         <div class="row">
             <div class="col-sm-7 col-md-7 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <img src="images/portfolio/full/4.jpg" alt="">
+                        <img src="images/portfolio/nag/nag1.PNG" alt="website screenshot">
                     </div>
                     <div class="item">
-                        <img src="images/portfolio/full/5.jpg" alt="">
+                        <img src="images/portfolio/nag/nag2.PNG" alt="website screenshot">
                     </div>
                     <div class="item">
-                        <img src="images/portfolio/full/6.jpg" alt="">
+                        <img src="images/portfolio/nag/nag3.PNG" alt="website screenshot">
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/nag/nag4.PNG" alt="website screenshot">
                     </div>
                 </div>
 
                 <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                    <iframe class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/NhnBHvghGC0?autoplay=0&mute=0&showinfo=0&controls=0&rel=0"></iframe>
                 </div>
 
                 <!--
@@ -52,14 +56,14 @@
                         }
                     }
 
-                    jQuery(document).ready(function($){
+                    jQuery(document).ready(function ($) {
 
                         // Ajax Loaded Page Scroll
                         customAjaxScroll();
 
 
                         $('.portfolio-page-carousel').owlCarousel({
-                            smartSpeed:1200,
+                            smartSpeed: 1200,
                             items: 1,
                             loop: true,
                             dots: true,
@@ -70,7 +74,7 @@
 
                     });
 
-                    jQuery(window).on('resize', function() {
+                    jQuery(window).on('resize', function () {
                         customAjaxScroll();
                     });
                 </script>
@@ -82,12 +86,15 @@
                     <h3>Description</h3>
                 </div>
                 <ul class="project-general-info">
-                    <li><p><i class="fa fa-user"></i> Alex Smith</p></li>
-                    <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>
-                    <li><p><i class="fa fa-calendar"></i> 25 december, 2016</p></li>
+                    <li><p><i class="fa fa-user"></i>Gabriel Stan</p></li>
+                    <li><p><i class="fa fa-globe"></i> <a href="https://noapteagaleriilor.ro" target="_blank">www.noapteagaleriilor.ro</a>
+                    </p></li>
+                    <li><p><i class="fa fa-calendar"></i> 8 october, 2018</p></li>
                 </ul>
 
-                <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p class="text-justify">Web application designed to help cultural projects to promote contemporary
+                    Romanian and international
+                    art, actions aimed at increasing its visibility among the general public.</p>
                 <!-- /Project Description -->
 
                 <!-- Technology -->
@@ -97,10 +104,11 @@
                     </div>
                     <ul class="tags">
                         <li><a>HTML5</a></li>
-                        <li><a>CSS3</a></li>
+                        <li><a>Sass</a></li>
                         <li><a>jQuery</a></li>
                         <li><a>Ajax</a></li>
-                        <li><a>PHP5</a></li>
+                        <li><a>PHP 7.2</a></li>
+                        <li><a>Laravel</a></li>
                     </ul>
                 </div>
                 <!-- /Technology -->
@@ -110,9 +118,10 @@
                     <div class="block-title">
                         <h3>Share</h3>
                     </div>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
-                    <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
+                    <a href="https://www.facebook.com/noapteagaleriilor/" target="_blank" class="btn"><i
+                            class="fa fa-facebook"></i> </a>
+                    <a href="https://twitter.com/nag_ro" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
+                    <!--<a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>-->
                 </div>
                 <!-- /Share Buttons -->
             </div>
