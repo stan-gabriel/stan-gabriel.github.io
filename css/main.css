@@ -2288,6 +2288,14 @@ ul.social-links li:last-child a {
 
 /* =========== CUSTOM ============== */
 .clients-align-center {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-block {
+    margin: 0 10px;
+}
+.skill-block > i {
+    font-size: 35px;
 }
