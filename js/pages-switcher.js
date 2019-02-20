@@ -1,9 +1,3 @@
-/*
-* Template Name: Unique - Responsive vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 2.0.0
-*/
 
 var PageTransitions = (function ($, options) {
 "use strict";
