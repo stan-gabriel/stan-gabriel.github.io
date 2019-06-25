@@ -1,5 +1,17 @@
 (function($) {
 "use strict";
+
+    //*---
+    $('body').ihavecookies({
+        title: "Cookies & Privacy Policy",
+        message: "This website uses cookies to ensure you get the best experience on our website.",
+        link: "/legal.html",
+        moreInfoLabel: 'Cookies and Privacy Policy',
+        acceptBtnLabel: 'Accept and continue',
+        expires: 30,
+        delay: 200,
+    });
+    //-----------------*
     
     // Portfolio subpage filters
     function portfolio_init() {

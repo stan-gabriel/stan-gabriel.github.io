@@ -2293,3 +2293,57 @@ ul.social-links li:last-child a {
 .skill-block > i {
     font-size: 35px;
 }
+
+
+/* LEGAL page */
+.legal-wrapper {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+/*-----------iHaveCookie*/
+   #gdpr-cookie-message {
+     position:fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     z-index: 999;
+     background: #ffffff;
+     padding-left: 3%;
+   }
+
+#gdpr-cookie-message a {
+  color:  #e26d2f;
+}
+
+#gdpr-cookie-message a:hover {
+  text-decoration: underline;
+}
+
+#gdpr-cookie-message h4 {
+  margin: 0.5em 0;
+}
+
+#gdpr-cookie-message p {
+  margin: 0 0 1em 0;
+}
+
+#gdpr-cookie-message p:last-child {
+}
+
+#gdpr-cookie-message button {
+  padding:5px;
+/*font-size: 14px;*/
+}
+
+#gdpr-cookie-message button:hover {
+  /* your css here */
+  color: #ffffff;
+}
+
+
+/*----------------------------*/
