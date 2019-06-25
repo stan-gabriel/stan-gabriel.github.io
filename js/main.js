@@ -4,7 +4,7 @@
     //*---
     $('body').ihavecookies({
         title: "Cookies & Privacy Policy",
-        message: "This website uses cookies to ensure you get the best experience on our website.",
+        message: "This website uses cookies to ensure you get the best experience on my website.",
         link: "/legal.html",
         moreInfoLabel: 'Cookies and Privacy Policy',
         acceptBtnLabel: 'Accept and continue',

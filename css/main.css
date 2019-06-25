@@ -2286,7 +2286,6 @@ ul.social-links li:last-child a {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .skill-block {
     margin: 0 10px;
 }
@@ -2295,29 +2294,31 @@ ul.social-links li:last-child a {
 }
 
 
-/* LEGAL page */
+/* -----LEGAL page ----*/
 .legal-wrapper {
   display: flex;
   font-family: "Times New Roman", Times, serif;
 }
 
-
-
-
-
 /*-----------iHaveCookie*/
-   #gdpr-cookie-message {
-     position:fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     z-index: 999;
-     background: #ffffff;
-     padding-left: 3%;
-   }
+#gdpr-cookie-message {
+ position:fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ z-index: 999;
+ background: #ffffff;
+ padding-left: 3%;
+}
+
+@media screen and (max-width: 992px) {
+    #gdpr-cookie-message {
+        top: 50px;
+    }
+}
 
 #gdpr-cookie-message a {
-  color:  #e26d2f;
+  color:  #ff724c;
 }
 
 #gdpr-cookie-message a:hover {
@@ -2344,6 +2345,4 @@ ul.social-links li:last-child a {
   /* your css here */
   color: #ffffff;
 }
-
-
 /*----------------------------*/
